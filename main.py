@@ -26,7 +26,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from apiclient.discovery import build
 
 #telegram bot token
-TOKEN = "620472523:AAF-6nir55yctdZ8P3n_A3YZp_b5Q0I3Uc8"
+TOKEN = "585316259:AAH2ydfpIxETKamFP6EAXZHV8A2lviJMFfo"
 
 # Enable logging
 logging.basicConfig(filename='pvChat_bot.log', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
