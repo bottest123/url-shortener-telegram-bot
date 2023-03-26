@@ -26,7 +26,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from apiclient.discovery import build
 
 #telegram bot token
-TOKEN = "585316259:AAH2ydfpIxETKamFP6EAXZHV8A2lviJMFfo"
+TOKEN = "6029574801:AAHWBH-2p318N0xD8SHPmNA1TTWOGfT2ACU"
 
 # Enable logging
 logging.basicConfig(filename='pvChat_bot.log', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -97,9 +97,9 @@ def insert(bot, update):
 		return
 
 	#Connect to google API service
-	credentials = ServiceAccountCredentials.from_json_keyfile_name('/path/to/googleProject.json', scopes)
-	http_auth = credentials.authorize(Http())
-	service = build('urlshortener', 'v1', http=http_auth)
+	credentials = https://www.malluhotsexaunt.com/api?api=88b679c3c90bb32a938ec7f62163d5a4fafb0f92&url=yourdestinationlink.com&alias=CustomAlias
+
+	
 
 	body = {'longUrl': longUrl}
 	response = service.url().insert(body=body).execute()
